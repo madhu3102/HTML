@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Registration page</title>
+    </head>
+    <body>
+        <form align="center">
+            <h2 align="center">REGISTRATION FORM</h2>
+            <label>Username :</label> <input type="text" autofocus pattern="[a-zA-Z]+" required/>
+            <br/><br/>
+            Password  : <input type="password" required pattern="[a-zA-Z0-9]" minlength="8" maxlength="12"/>
+            <br/><br/>
+            Email : <input type="email" required/>
+            <br/><br/>
+            Gender: Male<input type="radio" name="gender"/>
+        
+            Female<input type="radio" name="gender"/>
+            
+            Others<input type="radio" name="gender"/>
+            <br/><br/>
+            Age:<input type="number" min="12" max="60"/>
+            <br/><br/>
+            Address:<textarea rows="4" cols="20"></textarea>
+            <br/><br/>
+            Company website:<input type="url" name="url"/>
+            <br/><br/>
+            Choose Country:<select name="India" id="ind">
+                <option value="ind">India</option>
+                <option value="usa">USA</option>
+                <option value="ger">Germany</option>
+                <option value="jap">Japan</option>
+            </select>
+            <br/><br/>
+            Date of Journey:<input type="date" id="doj" name="doj"/>
+            <br/><br/>
+            <input type="submit" value="Submit"/>
+            <input type="reset" value="Reset"/>
+            </form>
+            </body>
+            </html>
+Attachments area
