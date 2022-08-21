@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>registration form</title>
+        <style>
+            .required:after{
+                content:"*";
+                color:red;
+            }
+        </style>
+    </head>
+ 
+    <body>
+        <h1 align="center">XYZ University</h1>
+        <form align="center">
+            <label class="required">First Name:</label><input type="text" required maxlength="10"/>
+            <br/><br/>
+            <label class="required">Last Name</label><input type="text" required maxlength="10"/>
+            <br/><br/>
+            <label class="required">Date of Birth:</label><input type="date" required/>
+            <br/><br/>
+            Gender:Male<input type="radio" name="gen"/>
+            Female<input type="radio" name="gen"/>
+            Others<input type="radio" name="gen"/>
+            <br/><br/>
+            Degree:<select>
+                <option>Bachelors</option>
+                <option>Masters</option>
+                <option>Doctorate</option>
+            </select>
+            <br/><br/>
+            <label class="required">Specialization:</label><input type="text" required maxlength="40"/>
+            <br/><br/>
+            <label class="required">Current GPA:</label><input type="number" step="0.1" required maxlength="5" />
+            <br/><br/>
+            <label class="required">Phone Number</label><input type="number" required/>
+            <br/><br/>
+            <label class="required"> Address:</label><textarea required rows="4" cols="40"></textarea>
+            <br/><br/>
+            <input type="submit" value="Register"/>
+
+        </form>
+    </body>
+</html>
